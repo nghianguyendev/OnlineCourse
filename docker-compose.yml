@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  onlinecourse:
+    image: ${DOCKER_REGISTRY}onlinecourse
+    build:
+      context: .
+      dockerfile: OnlineCourse\Dockerfile

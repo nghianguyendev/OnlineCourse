@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>b40d25ea-2ae1-43f7-a089-cb6fd79413fe</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineCourse.Business.Service\OnlineCourse.Business.Service.csproj" />
+    <ProjectReference Include="..\OnlineCourse.Data.Core.EF\OnlineCourse.Data.Repo.csproj" />
+  </ItemGroup>
+
+</Project>

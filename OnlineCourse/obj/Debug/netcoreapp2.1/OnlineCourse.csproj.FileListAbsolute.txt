@@ -1,0 +1,7 @@
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.1\OnlineCourse.csprojAssemblyReference.cache
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.1\OnlineCourse.csproj.CoreCompileInputs.cache
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.1\OnlineCourse.RazorAssemblyInfo.cache
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.1\OnlineCourse.RazorAssemblyInfo.cs
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.1\OnlineCourse.AssemblyInfoInputs.cache
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.1\OnlineCourse.AssemblyInfo.cs

@@ -1,0 +1,17 @@
+D:\development\OnlineCourse\OnlineCourse.Business.Service\bin\Debug\netcoreapp2.1\OnlineCourse.Business.Service.deps.json
+D:\development\OnlineCourse\OnlineCourse.Business.Service\bin\Debug\netcoreapp2.1\OnlineCourse.Business.Service.dll
+D:\development\OnlineCourse\OnlineCourse.Business.Service\bin\Debug\netcoreapp2.1\OnlineCourse.Business.Service.pdb
+D:\development\OnlineCourse\OnlineCourse.Business.Service\bin\Debug\netcoreapp2.1\OnlineCourse.Business.Model.dll
+D:\development\OnlineCourse\OnlineCourse.Business.Service\bin\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.dll
+D:\development\OnlineCourse\OnlineCourse.Business.Service\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.dll
+D:\development\OnlineCourse\OnlineCourse.Business.Service\bin\Debug\netcoreapp2.1\OnlineCourse.Business.Model.pdb
+D:\development\OnlineCourse\OnlineCourse.Business.Service\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.pdb
+D:\development\OnlineCourse\OnlineCourse.Business.Service\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.dll.config
+D:\development\OnlineCourse\OnlineCourse.Business.Service\bin\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.pdb
+D:\development\OnlineCourse\OnlineCourse.Business.Service\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Service.csprojAssemblyReference.cache
+D:\development\OnlineCourse\OnlineCourse.Business.Service\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Service.csproj.CoreCompileInputs.cache
+D:\development\OnlineCourse\OnlineCourse.Business.Service\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Service.AssemblyInfoInputs.cache
+D:\development\OnlineCourse\OnlineCourse.Business.Service\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Service.AssemblyInfo.cs
+D:\development\OnlineCourse\OnlineCourse.Business.Service\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Service.csproj.CopyComplete
+D:\development\OnlineCourse\OnlineCourse.Business.Service\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Service.dll
+D:\development\OnlineCourse\OnlineCourse.Business.Service\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Service.pdb

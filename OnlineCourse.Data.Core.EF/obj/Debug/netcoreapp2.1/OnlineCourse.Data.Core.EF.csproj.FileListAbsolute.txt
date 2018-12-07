@@ -1,0 +1,6 @@
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Core.EF.deps.json
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Core.EF.dll
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\OnlineCourse.Data.Core.EF.csproj.CoreCompileInputs.cache
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\OnlineCourse.Data.Core.EF.AssemblyInfoInputs.cache
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\OnlineCourse.Data.Core.EF.AssemblyInfo.cs
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\OnlineCourse.Data.Core.EF.csprojAssemblyReference.cache

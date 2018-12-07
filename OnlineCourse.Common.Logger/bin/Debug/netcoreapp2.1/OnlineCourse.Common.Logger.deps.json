@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "e96b23d6cc3db794ae2c1cc9769815a414eb34b3"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "OnlineCourse.Common.Logger/1.0.0": {
+        "dependencies": {
+          "NLog": "4.5.11",
+          "Validation": "2.4.18"
+        },
+        "runtime": {
+          "OnlineCourse.Common.Logger.dll": {}
+        }
+      },
+      "NLog/4.5.11": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.5.11.8645"
+          }
+        }
+      },
+      "Validation/2.4.18": {
+        "runtime": {
+          "lib/netstandard1.3/Validation.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.18.58985"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OnlineCourse.Common.Logger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NLog/4.5.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7TI+dYvEIOcCN6fjr3yjMN5AtPBSbHNxKGmn/5rkqbBk81MGsnQBkParoGOidibDIe3dwThJJndxl7O3zmd3rA==",
+      "path": "nlog/4.5.11",
+      "hashPath": "nlog.4.5.11.nupkg.sha512"
+    },
+    "Validation/2.4.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tJ5LmStAu2VoIaem3Wf+RkrxTweBz2d/WEEtEIZ4lj+fk0e9LhCRNDwapSIUjqGHoltF7w6uXn/+uPgzOW/P8g==",
+      "path": "validation/2.4.18",
+      "hashPath": "validation.2.4.18.nupkg.sha512"
+    }
+  }
+}

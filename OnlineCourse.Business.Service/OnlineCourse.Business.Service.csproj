@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineCourse.Business.Model\OnlineCourse.Business.Model.csproj" />
+    <ProjectReference Include="..\OnlineCourse.Data.Core.EF\OnlineCourse.Data.Repo.csproj" />
+  </ItemGroup>
+
+</Project>

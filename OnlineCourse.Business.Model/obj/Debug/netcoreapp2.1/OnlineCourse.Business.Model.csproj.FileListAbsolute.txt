@@ -1,0 +1,8 @@
+D:\development\OnlineCourse\OnlineCourse.Business.Model\bin\Debug\netcoreapp2.1\OnlineCourse.Business.Model.deps.json
+D:\development\OnlineCourse\OnlineCourse.Business.Model\bin\Debug\netcoreapp2.1\OnlineCourse.Business.Model.dll
+D:\development\OnlineCourse\OnlineCourse.Business.Model\bin\Debug\netcoreapp2.1\OnlineCourse.Business.Model.pdb
+D:\development\OnlineCourse\OnlineCourse.Business.Model\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Model.csproj.CoreCompileInputs.cache
+D:\development\OnlineCourse\OnlineCourse.Business.Model\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Model.AssemblyInfoInputs.cache
+D:\development\OnlineCourse\OnlineCourse.Business.Model\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Model.AssemblyInfo.cs
+D:\development\OnlineCourse\OnlineCourse.Business.Model\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Model.dll
+D:\development\OnlineCourse\OnlineCourse.Business.Model\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Model.pdb
