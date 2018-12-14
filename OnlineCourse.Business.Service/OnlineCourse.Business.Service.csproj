@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\OnlineCourse.Business.Model\OnlineCourse.Business.Model.csproj" />
     <ProjectReference Include="..\OnlineCourse.Data.Core.EF\OnlineCourse.Data.Repo.csproj" />
   </ItemGroup>

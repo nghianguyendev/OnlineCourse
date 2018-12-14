@@ -6,3 +6,4 @@ D:\development\OnlineCourse\OnlineCourse.Business.Model\obj\Debug\netcoreapp2.1\
 D:\development\OnlineCourse\OnlineCourse.Business.Model\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Model.AssemblyInfo.cs
 D:\development\OnlineCourse\OnlineCourse.Business.Model\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Model.dll
 D:\development\OnlineCourse\OnlineCourse.Business.Model\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Model.pdb
+D:\development\OnlineCourse\OnlineCourse.Business.Model\obj\Debug\netcoreapp2.1\OnlineCourse.Business.Model.csprojAssemblyReference.cache

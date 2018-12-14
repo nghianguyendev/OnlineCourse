@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <DockerComposeProjectPath>..\OnlineCourse\docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>3244e306-8071-45a1-84d7-93a01f2a1f62</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineCourse.Business.Service\OnlineCourse.Business.Service.csproj" />
+    <ProjectReference Include="..\OnlineCourse.Data.Core.EF\OnlineCourse.Data.Repo.csproj" />
+  </ItemGroup>
+
+</Project>

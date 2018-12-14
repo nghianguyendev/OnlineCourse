@@ -3,6 +3,22 @@ networks:
     external:
       name: nat
 services:
+  gateway:
+    build:
+      context: D:\development\OnlineCourse
+      dockerfile: ..\GateWay\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: gateway
+    ports:
+    - published: 61035
+      target: 80
+    - published: 44325
+      target: 443
+    volumes:
+    - C:\Users\nghianguyen\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+    - C:\Users\nghianguyen\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
   onlinecourse:
     build:
       context: D:\development\OnlineCourse

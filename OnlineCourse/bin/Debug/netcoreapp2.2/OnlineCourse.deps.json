@@ -240,7 +240,8 @@
       "OnlineCourse.Business.Service/1.0.0": {
         "dependencies": {
           "OnlineCourse.Business.Model": "1.0.0",
-          "OnlineCourse.Data.Repo": "1.0.0"
+          "OnlineCourse.Data.Repo": "1.0.0",
+          "System.IdentityModel.Tokens.Jwt": "5.3.0"
         },
         "runtime": {
           "OnlineCourse.Business.Service.dll": {}
@@ -264,6 +265,7 @@
       "OnlineCourse.Data.Repo/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.0",
           "OnlineCourse.Common.Logger": "1.0.0"
         },

@@ -1,9 +1,3 @@
-D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.csprojAssemblyReference.cache
-D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.csproj.CoreCompileInputs.cache
-D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.RazorAssemblyInfo.cache
-D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.RazorAssemblyInfo.cs
-D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.AssemblyInfoInputs.cache
-D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.AssemblyInfo.cs
 D:\development\OnlineCourse\OnlineCourse\bin\Debug\netcoreapp2.2\OnlineCourse.deps.json
 D:\development\OnlineCourse\OnlineCourse\bin\Debug\netcoreapp2.2\OnlineCourse.runtimeconfig.json
 D:\development\OnlineCourse\OnlineCourse\bin\Debug\netcoreapp2.2\OnlineCourse.runtimeconfig.dev.json
@@ -20,6 +14,12 @@ D:\development\OnlineCourse\OnlineCourse\bin\Debug\netcoreapp2.2\OnlineCourse.Da
 D:\development\OnlineCourse\OnlineCourse\bin\Debug\netcoreapp2.2\OnlineCourse.Data.Repo.dll.config
 D:\development\OnlineCourse\OnlineCourse\bin\Debug\netcoreapp2.2\OnlineCourse.Business.Model.pdb
 D:\development\OnlineCourse\OnlineCourse\bin\Debug\netcoreapp2.2\OnlineCourse.Common.Logger.pdb
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.csprojAssemblyReference.cache
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.csproj.CoreCompileInputs.cache
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.RazorAssemblyInfo.cache
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.RazorAssemblyInfo.cs
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.AssemblyInfoInputs.cache
+D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.AssemblyInfo.cs
 D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.TagHelpers.input.cache
 D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.TagHelpers.output.cache
 D:\development\OnlineCourse\OnlineCourse\obj\Debug\netcoreapp2.2\OnlineCourse.RazorCoreGenerate.cache

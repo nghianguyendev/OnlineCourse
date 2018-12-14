@@ -1,9 +1,9 @@
 D:\development\OnlineCourse\OnlineCourse.Common.Logger\bin\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.deps.json
 D:\development\OnlineCourse\OnlineCourse.Common.Logger\bin\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.dll
+D:\development\OnlineCourse\OnlineCourse.Common.Logger\bin\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.pdb
 D:\development\OnlineCourse\OnlineCourse.Common.Logger\obj\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.csproj.CoreCompileInputs.cache
 D:\development\OnlineCourse\OnlineCourse.Common.Logger\obj\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.AssemblyInfoInputs.cache
 D:\development\OnlineCourse\OnlineCourse.Common.Logger\obj\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.AssemblyInfo.cs
-D:\development\OnlineCourse\OnlineCourse.Common.Logger\bin\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.pdb
 D:\development\OnlineCourse\OnlineCourse.Common.Logger\obj\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.dll
 D:\development\OnlineCourse\OnlineCourse.Common.Logger\obj\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.pdb
 D:\development\OnlineCourse\OnlineCourse.Common.Logger\obj\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.csprojAssemblyReference.cache

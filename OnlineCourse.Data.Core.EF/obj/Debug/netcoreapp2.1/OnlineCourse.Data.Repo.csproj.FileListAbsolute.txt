@@ -1,8 +1,15 @@
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.dll.config
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.deps.json
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.runtimeconfig.json
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.runtimeconfig.dev.json
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.dll
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.pdb
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.CookiePolicy.dll
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Protocols.dll
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.dll
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Common.Logger.pdb
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.CookiePolicy.xml
+D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Protocols.xml
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.csprojAssemblyReference.cache
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.csproj.CoreCompileInputs.cache
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.AssemblyInfoInputs.cache
@@ -10,6 +17,3 @@ D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\On
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.csproj.CopyComplete
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.dll
 D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\obj\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.pdb
-D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\OnlineCourse.Data.Repo.dll.config
-D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Protocols.dll
-D:\development\OnlineCourse\OnlineCourse.Data.Core.EF\bin\Debug\netcoreapp2.1\Microsoft.IdentityModel.Protocols.xml

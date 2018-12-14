@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCourse", "OnlineCourse\OnlineCourse.csproj", "{7982994D-1147-4167-A72A-1DA9E2FA7C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineCourse", "OnlineCourse\OnlineCourse.csproj", "{7982994D-1147-4167-A72A-1DA9E2FA7C8A}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F12DD114-5EFC-4373-A9AD-EC4E054CFF4D}"
 EndProject
@@ -11,15 +11,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{42
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4E140F1A-F287-4B12-BEC6-8AF04B672FE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCourse.Data.Repo", "OnlineCourse.Data.Core.EF\OnlineCourse.Data.Repo.csproj", "{F43FC4D2-372C-4E6E-94B6-6580612A70D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineCourse.Data.Repo", "OnlineCourse.Data.Core.EF\OnlineCourse.Data.Repo.csproj", "{F43FC4D2-372C-4E6E-94B6-6580612A70D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{49D33ADD-3E8F-4B66-917F-0673B219CF7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCourse.Common.Logger", "OnlineCourse.Common.Logger\OnlineCourse.Common.Logger.csproj", "{6BEEAE02-F627-4FE4-B19C-B5E5D2A5C408}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineCourse.Common.Logger", "OnlineCourse.Common.Logger\OnlineCourse.Common.Logger.csproj", "{6BEEAE02-F627-4FE4-B19C-B5E5D2A5C408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCourse.Business.Service", "OnlineCourse.Business.Service\OnlineCourse.Business.Service.csproj", "{D972462A-76CD-43DC-9F36-BE36B522C967}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineCourse.Business.Service", "OnlineCourse.Business.Service\OnlineCourse.Business.Service.csproj", "{D972462A-76CD-43DC-9F36-BE36B522C967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCourse.Business.Model", "OnlineCourse.Business.Model\OnlineCourse.Business.Model.csproj", "{C5EF9468-66E8-4FB3-82BD-30DC06304688}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineCourse.Business.Model", "OnlineCourse.Business.Model\OnlineCourse.Business.Model.csproj", "{C5EF9468-66E8-4FB3-82BD-30DC06304688}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GateWay", "GateWay\GateWay.csproj", "{3FB1C1C4-85E3-423A-BE01-4F1A227FB589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "..\IdentityServer\IdentityServer.csproj", "{3668FE3B-E19B-4546-AD6C-FE421D8178AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{C5EF9468-66E8-4FB3-82BD-30DC06304688}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5EF9468-66E8-4FB3-82BD-30DC06304688}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5EF9468-66E8-4FB3-82BD-30DC06304688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB1C1C4-85E3-423A-BE01-4F1A227FB589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB1C1C4-85E3-423A-BE01-4F1A227FB589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB1C1C4-85E3-423A-BE01-4F1A227FB589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB1C1C4-85E3-423A-BE01-4F1A227FB589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3668FE3B-E19B-4546-AD6C-FE421D8178AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3668FE3B-E19B-4546-AD6C-FE421D8178AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3668FE3B-E19B-4546-AD6C-FE421D8178AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3668FE3B-E19B-4546-AD6C-FE421D8178AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

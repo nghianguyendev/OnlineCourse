@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
 using OnlineCourse.Business.Model;
 using OnlineCourse.Business.Service.Interfaces;
 using OnlineCourse.Business.Service.Mappers;
