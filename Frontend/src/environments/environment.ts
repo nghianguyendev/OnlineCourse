@@ -14,3 +14,8 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+let providers: any[] = [
+  { provide: 'apiUrl', useValue: 'https://localhost:44325' }
+];
+
+export const ENV_PROVIDERS = providers;

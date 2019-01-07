@@ -1,15 +1,11 @@
 <form [formGroup]="courseForm" (ngSubmit)="onSubmit()">
   <div class="col-3 text-sm-left">
-    <div class="form-group" 
-    [ngClass]="{
-      'has-danger': courseForm.controls.name.invalid && courseForm.controls.name.dirty,
-      'has-success': courseForm.controls.name.valid && courseForm.controls.name.dirty
-    }">
+    <div class="form-group" >
       <label>Name</label>
         <input type="text" class="form-control  input-sm" formControlName="name">
     </div>
 
-    <div class="form-group has-danger">
+    <div class="form-group alert-danger">
       <label>Url</label>
         <input type="text"
              class="form-control  input-sm"  formControlName="url">
@@ -24,4 +20,24 @@
   <button type="submit" class="btn btn-primary" >Submit</button>
 </div>
 </form>
+
+<div>
+    <table>
+      <thead>
+        <td><h4>Course</h4></td>
+        <td><h4>Url</h4></td>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let course of courses">
+            <tr><td>{{course.name}}</td>
+            <td>{{course.url}}</td></tr>
+        </ng-container>
+      </tbody>
+      <tfoot>
+        <td>
+            Total {{ courses | count }}
+        </td>
+      </tfoot>
+   </table>
+   </div>
 <pre>{{courseForm.value | json}}</pre>

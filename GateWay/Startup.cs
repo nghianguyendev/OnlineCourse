@@ -44,6 +44,8 @@ namespace GateWay
 
             ConfigureJwtAuthentication();
 
+            ConfigureCORS();
+
             void ConfigureSwagger()
             {
                 services.AddSwaggerGen(c =>
@@ -119,6 +121,21 @@ namespace GateWay
                             ValidateAudience = false
                         };
                     });
+            }
+
+            void ConfigureCORS()
+            {
+                services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+                }));
+
+                services.Configure<MvcOptions>(options =>
+                {
+                    options.Filters.Add(new Microsoft.AspNetCore.Mvc.Cors.Internal.CorsAuthorizationFilterFactory("MyPolicy"));
+                });
             }
         }
 

@@ -8,6 +8,12 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CourseComponent } from './components/course/course.component';
 import { HomeComponent } from './components/home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CategoryComponent } from './components/category/category.component';
+import { CourseService } from 'src/shared/services/course.service';
+import { SecureApi } from 'src/core/secure.api';
+import { HttpModule } from '@angular/http';
+import { ENV_PROVIDERS } from 'src/environments/environment';
+import { Count } from 'src/shared/pipes/count.pipe';
 
 @NgModule({
   declarations: [
@@ -15,15 +21,22 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HeaderComponent,
     FooterComponent,
     CourseComponent,
-    HomeComponent
+    HomeComponent,
+    CategoryComponent,
+    Count
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [
+    CourseService,
+    SecureApi,
+    ENV_PROVIDERS
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

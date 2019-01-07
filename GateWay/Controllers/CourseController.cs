@@ -12,7 +12,7 @@ using OnlineCourse.Business.Service.Interfaces;
 
 namespace GateWay.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class CourseController : Controller
@@ -25,17 +25,11 @@ namespace GateWay.Controllers
         }
 
         [HttpGet]
+        [Route("GetAll")]
         public IActionResult GetAll()
         {
-            var users = new List<CourseVm>
-            {
-                new CourseVm()
-                {
-                    Name = "dot net activity",
-                    Url = "http://course.vn/1"
-                }
-            };
-            return Ok(users);
+            var courses = courseService.GetAll();
+            return Ok(courses);
         }
 
     }

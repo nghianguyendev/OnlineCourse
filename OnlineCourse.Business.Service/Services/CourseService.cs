@@ -7,6 +7,7 @@ using OnlineCourse.Business.Service.Interfaces;
 using OnlineCourse.Business.Service.Mappers;
 using OnlineCourse.Data.Repo;
 using OnlineCourse.Data.Repo.DataContext;
+using OnlineCourse.Data.Repo.Entity;
 using OnlineCourse.Data.Repo.RepositoryFactory;
 
 namespace OnlineCourse.Business.Service
@@ -26,6 +27,12 @@ namespace OnlineCourse.Business.Service
         {
             var entity = CourseMapper.ToEntity(course);
             repository.Create(entity);
+        }
+
+        public List<CourseDto> GetAll()
+        {
+            var allCourses = this.repository.GetAll<Course>().ToList();
+            return CourseMapper.ToListDto(allCourses);
         }
     }
 }

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, Validators, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { CourseModel } from 'src/shared/models/course.model';
+import { CourseService } from 'src/shared/services/course.service';
 
 @Component({
   selector: 'app-course',
@@ -10,7 +11,9 @@ import { CourseModel } from 'src/shared/models/course.model';
 export class CourseComponent implements OnInit {
   course: CourseModel = null;
   courseForm: FormGroup;
-  constructor(private formBuilder: FormBuilder) { 
+  courses: CourseModel[];
+  constructor(private formBuilder: FormBuilder,
+    private courseService: CourseService) { 
     this.courseForm = this.formBuilder.group({
       'name': new FormControl('', Validators.required),
       'url': new FormControl('', Validators.required),
@@ -19,9 +22,15 @@ export class CourseComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.courseService.getAll()
+        .subscribe(courses => { this.courses = courses; console.log(courses) });
   }
 
-  onSubmit() {
+  onSubmit(data, isValid) {
+    if(!isValid){
+      return;
+    }
+    
     if (this.courseForm.valid) {
       console.log("Form Submitted!");
     }else{
