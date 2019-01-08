@@ -14,6 +14,9 @@ import { SecureApi } from 'src/core/secure.api';
 import { HttpModule } from '@angular/http';
 import { ENV_PROVIDERS } from 'src/environments/environment';
 import { Count } from 'src/shared/pipes/count.pipe';
+import { LoginComponent } from './components/login/login.component';
+import { AuthenticationService } from 'src/shared/services/authentication.service';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,19 +26,22 @@ import { Count } from 'src/shared/pipes/count.pipe';
     CourseComponent,
     HomeComponent,
     CategoryComponent,
-    Count
+    Count,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpModule
+    HttpModule,
+    HttpClientModule
   ],
   providers: [
     CourseService,
     SecureApi,
-    ENV_PROVIDERS
+    ENV_PROVIDERS,
+    AuthenticationService
   ],
   bootstrap: [AppComponent]
 })

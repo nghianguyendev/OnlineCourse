@@ -26,11 +26,7 @@ export class CourseComponent implements OnInit {
         .subscribe(courses => { this.courses = courses; console.log(courses) });
   }
 
-  onSubmit(data, isValid) {
-    if(!isValid){
-      return;
-    }
-    
+  onSubmit( ) {    
     if (this.courseForm.valid) {
       console.log("Form Submitted!");
     }else{

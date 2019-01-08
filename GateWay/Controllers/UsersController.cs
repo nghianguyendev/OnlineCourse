@@ -12,7 +12,7 @@ using OnlineCourse.Business.Service.Interfaces;
 
 namespace GateWay.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class UsersController : Controller

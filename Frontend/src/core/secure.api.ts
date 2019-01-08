@@ -3,6 +3,7 @@ import { Http, Headers, RequestOptions, Response } from "@angular/http";
 // import { Store } from '@ngrx/store';
 import { Observable, pipe } from "rxjs";
 import { map, retry, catchError } from "rxjs/operators";
+import { AuthenticationService } from 'src/shared/services/authentication.service';
 
 /** Services */
 // import { AppState } from './../app.state';
@@ -13,7 +14,7 @@ export class SecureApi {
   private token: string;
   public api: string = "";
 
-  constructor(private http: Http) {}
+  constructor(private http: Http, private oauthService: AuthenticationService) {}
 
   get(resource: string) {
     let url = this.api + resource;
@@ -21,8 +22,8 @@ export class SecureApi {
     return this.http
       .get(url, this.createRequestOptions())
       .pipe(
-          map(this.mapData)//,
-    //    catchError (error => this.handleError(error))
+          map(this.mapData),
+       catchError (error => this.handleError(error))
        );
   }
 
@@ -57,9 +58,9 @@ export class SecureApi {
 
   private createRequestOptions(isUpload: boolean = false) {
     let contentType = isUpload ? "x-www-form-urlencoded" : "json";
-    // if (this.oauthService) {
-    //   this.token = this.oauthService.getAccessToken();
-    // }
+    if (this.oauthService) {
+      this.token = this.oauthService.getAccessToken();
+    }
     let headerOptions = {
       Accept: `application/${contentType}`,
       "Access-Control-Allow-Credentials": "true",
