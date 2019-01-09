@@ -6,7 +6,7 @@ import { CategoryComponent } from './components/category/category.component';
 import { AuthGuard } from './_guards/auth.guard';
 import { LoginComponent } from './components/login/login.component';
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: '', component: HomeComponent, canActivate: [AuthGuard] },
  { path: 'course', component: CourseComponent },
  { path: 'category', component: CategoryComponent },
@@ -18,3 +18,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+

@@ -14,6 +14,7 @@ export class CategoryComponent implements OnInit {
   
   ngOnInit() {
     this.name = "sample name";
+    this.testPromise();
   }
 
   onSubmit() {
@@ -22,5 +23,14 @@ export class CategoryComponent implements OnInit {
       this.form.reset();
       this.name="reset";
     }
+  }
+
+  testPromise()
+  {
+    Promise.resolve('done')
+  .then(
+    (val) => console.log(val),
+    (err) => console.error(err)
+  );
   }
 }

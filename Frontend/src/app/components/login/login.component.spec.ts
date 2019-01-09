@@ -17,6 +17,7 @@ describe("LoginComponent", () => {
   let submitEl: DebugElement;
   let loginEl: DebugElement;
   let passwordEl: DebugElement;
+  let formEl: DebugElement;
   const formBuilder: FormBuilder = new FormBuilder();
   const authenticationService = new AuthenticationService(null, null);
 
@@ -39,6 +40,13 @@ describe("LoginComponent", () => {
     submitEl = fixture.debugElement.query(By.css("button"));
     loginEl = fixture.debugElement.query(By.css("input[type=text]"));
     passwordEl = fixture.debugElement.query(By.css("input[type=password]"));
+    formEl = fixture.debugElement.query(By.css("form"));
+  });
+
+  afterEach(() => {
+    if (fixture) {
+                fixture.destroy();
+            }
   });
 
   it("should create", () => {
@@ -51,22 +59,22 @@ describe("LoginComponent", () => {
     expect(submitEl.nativeElement.disabled).toBeTruthy();
   });
 
-  it("Entering email and password emits loggedIn event", () => {
+  it("Entering email and password emits loggedIn event", async(() => {
+    component.enabled = true;
     spy = spyOn(authenticationService, "login").and.returnValue(
       of({ username: "test", password: "test" })
     );
+
     let user: User;
     loginEl.nativeElement.value = "test";
     passwordEl.nativeElement.value = "test";
-debugger
-    component.loggedIn.subscribe(value => {
-      user = value;
-      debugger
-      expect(user.username).toBe("test@example.com");
-      expect(user.password).toBe("123456");
-    });
 
-    submitEl.triggerEventHandler("click", null);
-    component.onSubmit();
-  });
+      component.loggedIn.subscribe(value => {
+        user = value;      
+        expect(user.username).toBe("test");
+        expect(user.password).toBe("test");
+      });  
+
+    formEl.triggerEventHandler("ngSubmit", null);
+  }));
 });

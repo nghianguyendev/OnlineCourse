@@ -37,6 +37,9 @@
         <td>
             Total {{ courses | count }}
         </td>
+        <td>
+            Total by asyncpipe {{ numberOfCourse | async }}            
+        </td>
       </tfoot>
    </table>
    </div>
