@@ -17,6 +17,9 @@ import { Count } from 'src/shared/pipes/count.pipe';
 import { LoginComponent } from './components/login/login.component';
 import { AuthenticationService } from 'src/shared/services/authentication.service';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { StoreModule } from '@ngrx/store';
+import { reducer } from './reducers/course.reducer';
+import { CourseregistrationComponent } from './components/courseregistration/courseregistration.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,8 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
     HomeComponent,
     CategoryComponent,
     Count,
-    LoginComponent
+    LoginComponent,
+    CourseregistrationComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +39,8 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    HttpClientModule
+    HttpClientModule, 
+    StoreModule.forRoot({course: reducer})
   ],
   providers: [
     CourseService,

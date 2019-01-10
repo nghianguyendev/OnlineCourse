@@ -14,6 +14,7 @@ import { CategoryComponent } from './components/category/category.component';
 import { ENV_PROVIDERS } from 'src/environments/environment';
 import {routes} from 'src/app/app-routing.module'
 import { LoginComponent } from './components/login/login.component';
+import { CourseregistrationComponent } from './components/courseregistration/courseregistration.component';
 
 describe('Router: AppComponent', () => {
   let location: Location;
@@ -36,6 +37,7 @@ describe('Router: AppComponent', () => {
         FooterComponent,
         CourseComponent,
         LoginComponent,
+        CourseregistrationComponent,
         Count
       ],
       providers:[
@@ -51,10 +53,10 @@ describe('Router: AppComponent', () => {
 
   });
 
-  it('navigate to "category" redirects you to /category', fakeAsync(() => {
-    router.navigate(['category']);
+  it('navigate to "login" redirects you to /login', fakeAsync(() => {
+    router.navigate(['login']);
     tick();
-    expect(location.path()).toBe('/category');
+    expect(location.path()).toBe('/login');
   }));
   
 });

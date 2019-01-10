@@ -1,0 +1,23 @@
+<p>
+  Courseregistration
+</p>
+
+<div>
+  <table>
+    <thead>
+      <td><h4>Course</h4></td>
+      <td><h4>Url</h4></td>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let course of courses | async">
+          <tr><td>{{course.name}}</td>
+          <td>{{course.url}}</td></tr>
+      </ng-container>
+    </tbody>
+    <tfoot>
+      <td>
+          Total {{ courses | async | count }}
+      </td>
+    </tfoot>
+ </table>
+ </div>
