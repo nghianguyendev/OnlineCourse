@@ -20,6 +20,8 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { StoreModule } from '@ngrx/store';
 import { reducer } from './reducers/course.reducer';
 import { CourseregistrationComponent } from './components/courseregistration/courseregistration.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,7 @@ import { CourseregistrationComponent } from './components/courseregistration/cou
     ReactiveFormsModule,
     HttpModule,
     HttpClientModule, 
-    StoreModule.forRoot({course: reducer})
+    StoreModule.forRoot({course: reducer}), ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     CourseService,
